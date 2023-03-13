@@ -1,0 +1,151 @@
+.body {
+    background-color: #0D192C;  
+    display: flex;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+  }   
+  
+  .div {
+    background-color: #15263F;
+    height: 550px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 24px;   
+    position: relative;
+  }
+    
+  .mainimg  {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .overlay {
+    position: absolute;
+    visibility: hidden;
+    background-color: #00FFF8;
+    width: 302px;
+    height: 302px;
+    top: 24px;
+    left: 24px;
+    object-fit: cover;
+    opacity: 0.5;
+    mix-blend-mode: normal;
+    border-radius: 8px;
+    cursor: pointer; 
+  }
+  
+  .icon-eye {
+    position: absolute;
+    display: none;
+    top: 161px;
+    left: 155px; 
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .colorchanger:hover .overlay {
+    visibility: visible;
+  }
+  
+  .colorchanger:hover .icon-eye {
+    display: block; 
+  }
+  
+  .h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27.72px;
+    transition: color 0.15s;
+  }
+  
+  .h1:hover {
+    cursor: pointer;
+    color: #00FFF8;
+   }
+  
+  .p {
+    color: #8BACD9;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    width: 302px;
+  }
+    
+  .data {
+    top: 470px;
+    width: 301px;
+    height: 20px;
+    display: flex;
+  }
+  
+  .icon{  
+    width: 11px;
+    height: 18px;
+  }
+  
+  .ETH {
+    color: #00FFF8;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 6.48px;
+    margin-top: 0px;
+  }
+  
+  .clock { 
+    width: 13.33px;
+    height: 13.33px;
+    margin-left: 110.82px;
+    margin-top: 5px;
+    object-fit: cover;
+  }
+  .time { 
+    color: #8BACD9;
+    margin-right: 2px;
+    margin-top: 0px;
+    margin-left: 9.03px;
+  }
+  
+  .line {
+    width: 302px;
+    height: 1px;
+    background-color: #2E405A;
+    border: none;
+    margin-top: 24px;
+  }
+  
+  .lastinfo {
+    width: 230px;
+    height: 33px;
+    top: 531px;
+    margin-top: 16px;
+    display: flex;
+  }
+  
+  .kacis {
+    width: 33px;
+    height: 33px;
+   
+  }
+  
+  .last {
+    color: #8BACD9;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 16px;
+    margin-top: 7px;
+  }
+  
+  .jule {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-top: 7px;
+    transition: color 0.15s;
+  }
+  
+  .jule:hover {
+    cursor: pointer;
+    color: #00FFF8;
+  }
