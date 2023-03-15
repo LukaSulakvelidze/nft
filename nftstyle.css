@@ -2,6 +2,7 @@
     background-color: #0D192C;  
     display: flex;
     height: 100vh;
+    overflow-y: hidden;
     font-family: 'Outfit', sans-serif;
   }   
   
